@@ -1,4 +1,4 @@
-package spring;
+package lk.ijse.spring;
 
 import lk.ijse.spring.config.AppConfig;
 import lk.ijse.spring.pojo.BasicDataSource;

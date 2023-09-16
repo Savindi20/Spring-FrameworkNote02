@@ -1,4 +1,4 @@
-package spring.pojo;
+package lk.ijse.spring.pojo;
 
 import org.springframework.stereotype.Component;
 

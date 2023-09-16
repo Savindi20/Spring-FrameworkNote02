@@ -1,4 +1,4 @@
-package spring.pojo;
+package lk.ijse.spring.pojo;
 
 //This class is not mine
 //So I can't put @Component

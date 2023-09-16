@@ -1,4 +1,4 @@
-package spring.config;
+package lk.ijse.spring.config;
 
 import lk.ijse.spring.pojo.BasicDataSource;
 import org.springframework.context.annotation.Bean;
