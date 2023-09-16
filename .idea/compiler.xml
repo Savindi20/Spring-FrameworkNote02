@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="02_Bean_Life_Cycle" />
         <module name="01_Spring_Core" />
+        <module name="03_Bean_Scopes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="03_Bean_Scopes" target="8" />
       <module name="Spring In Action" target="8" />
     </bytecodeTargetLevel>
   </component>
