@@ -11,7 +11,8 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
-        PojoOne bean = ctx.getBean(PojoOne.class);
-        System.out.println(bean);
+        PojoOne bean1 = ctx.getBean(PojoOne.class);
+        System.out.println(bean1);
+
     }
 }
