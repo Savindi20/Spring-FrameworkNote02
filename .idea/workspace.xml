@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_Spring_Core/01_Spring_Core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_Bean_Life_Cycle/02_Bean_Life_Cycle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/pojo/BasicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/pojo/BasicDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/pojo/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/pojo/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/pojo/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/03_Bean_Scopes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/03_Bean_Scopes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694854390862</updated>
-      <workItem from="1694854392687" duration="1135000" />
+      <workItem from="1694854392687" duration="1411000" />
+      <workItem from="1694855848881" duration="3023000" />
     </task>
     <servers />
   </component>
@@ -147,5 +131,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
