@@ -15,8 +15,5 @@ public class AppInitializer {
         PojoOne bean1 = ctx.getBean(PojoOne.class);
         System.out.println(bean1);
 
-        PojoTwo bean = ctx.getBean(PojoTwo.class);
-        System.out.println(bean);
-
     }
 }

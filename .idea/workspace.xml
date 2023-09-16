@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_Spring_Core/src/main/java/spring/pojo/BasicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/src/main/java/lk/ijse/spring/pojo/BasicDataSource.java" afterDir="false" />
@@ -52,9 +53,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring-FrameworkNote02\Spring In Action\03_Bean_Scopes\src\main\java\lk\ijse\spring" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.AppInitializer (1)">
     <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -123,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694854390862</updated>
-      <workItem from="1694854392687" duration="566000" />
+      <workItem from="1694854392687" duration="1135000" />
     </task>
     <servers />
   </component>
