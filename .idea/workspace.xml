@@ -5,25 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/04_Spring_DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/Boy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_Core/01_Spring_Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/01_Spring_Core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Bean_Life_Cycle/02_Bean_Life_Cycle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Bean_Life_Cycle/02_Bean_Life_Cycle.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2VTJyQiWGCK3zL8I2hah7y38Ski" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -33,11 +51,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03_Bean_Scopes/src/main/java/lk/ijse/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.152439" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,15 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694854390862</updated>
       <workItem from="1694854392687" duration="1411000" />
-      <workItem from="1694855848881" duration="3023000" />
+      <workItem from="1694855848881" duration="4795000" />
+      <workItem from="1694873565187" duration="548000" />
     </task>
     <servers />
   </component>
@@ -132,5 +149,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
