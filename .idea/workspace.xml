@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/GoodGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/Boy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/pojo/Girl.java" afterDir="false" />
     </list>
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -109,17 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppInitializer (3)" />
@@ -141,6 +131,7 @@
       <workItem from="1694855848881" duration="4795000" />
       <workItem from="1694873565187" duration="700000" />
       <workItem from="1694874280807" duration="1567000" />
+      <workItem from="1694875875428" duration="390000" />
     </task>
     <servers />
   </component>

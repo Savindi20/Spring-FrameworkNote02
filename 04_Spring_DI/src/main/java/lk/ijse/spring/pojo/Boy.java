@@ -1,14 +1,10 @@
 package lk.ijse.spring.pojo;
 
-import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Boy implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
+public class Boy {
 
     @Autowired
     GoodGirl girl;
@@ -22,28 +18,4 @@ public class Boy implements BeanNameAware, BeanFactoryAware, ApplicationContextA
         girl.chat();
     }
 
-    @Override
-    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        System.out.println("Boy: BeanFactory Aware");
-    }
-
-    @Override
-    public void setBeanName(String s) {
-        System.out.println("Boy: BeanNameAware");
-    }
-
-    @Override
-    public void destroy() throws Exception {
-        System.out.println("Boy: Destroyed");
-    }
-
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        System.out.println("Boy: Initializing Bean");
-    }
-
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("Boy: Application Context Aware");
-    }
 }
