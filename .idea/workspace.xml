@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/DI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,7 @@
       <workItem from="1694876276860" duration="151000" />
       <workItem from="1694876436698" duration="1233000" />
       <workItem from="1694877687630" duration="17000" />
-      <workItem from="1694920936855" duration="2038000" />
+      <workItem from="1694920936855" duration="2728000" />
     </task>
     <servers />
   </component>

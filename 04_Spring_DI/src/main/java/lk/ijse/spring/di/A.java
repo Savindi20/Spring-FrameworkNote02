@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class A {
+public class A implements DI{
 
 //    @Autowired
     SuperB superB; // property injection
@@ -15,12 +15,18 @@ public class A {
         System.out.println("A: Instantiated");
     }
 
-    @Autowired
+//    @Autowired
     public void setInjection(SuperB s){
-        this.superB =s ; // setter method injection
+        this.superB = s; // setter method injection
     }
 
     public void test(){
         superB.methodUsedByA();
+    }
+
+    @Autowired
+    @Override
+    public void inject(SuperB b) {
+        this.superB = b; // Interface through injection
     }
 }
