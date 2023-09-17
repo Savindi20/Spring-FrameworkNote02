@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/05_FullMode_LightMode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +53,18 @@
     <property name="project.structure.side.proportion" value="0.152439" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lk.ijse.spring." />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\04_Spring_DI\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\03_Bean_Scopes\src\main\java\lk\ijse\spring" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.spring.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AppInitializer (3)">
+  <component name="RunManager" selected="Application.AppInitializer (4)">
     <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
       <module name="03_Bean_Scopes" />
@@ -85,6 +87,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer (4)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="05_FullMode_LightMode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,20 +150,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="AppInitializer(3)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="04_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AppInitializer" />
+      <item itemvalue="Application.AppInitializer (1)" />
+      <item itemvalue="Application.AppInitializer (2)" />
+      <item itemvalue="Application.AppInitializer(3)" />
+      <item itemvalue="Application.AppInitializer (4)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppInitializer (3)" />
+        <item itemvalue="Application.AppInitializer(3)" />
         <item itemvalue="Application.AppInitializer (1)" />
         <item itemvalue="Application.AppInitializer (2)" />
         <item itemvalue="Application.AppInitializer" />
@@ -177,7 +208,8 @@
       <workItem from="1694876276860" duration="151000" />
       <workItem from="1694876436698" duration="1233000" />
       <workItem from="1694877687630" duration="17000" />
-      <workItem from="1694920936855" duration="3784000" />
+      <workItem from="1694920936855" duration="3974000" />
+      <workItem from="1694925213955" duration="1810000" />
     </task>
     <servers />
   </component>
