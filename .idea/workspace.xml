@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
@@ -163,25 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.AppInitializer (4)" />
       <item itemvalue="Application.AppInitializer" />
       <item itemvalue="Application.AppInitializer (1)" />
       <item itemvalue="Application.AppInitializer (2)" />
       <item itemvalue="Application.AppInitializer(3)" />
-      <item itemvalue="Application.AppInitializer (4)" />
     </list>
     <recent_temporary>
       <list>
@@ -209,7 +194,8 @@
       <workItem from="1694876436698" duration="1233000" />
       <workItem from="1694877687630" duration="17000" />
       <workItem from="1694920936855" duration="3974000" />
-      <workItem from="1694925213955" duration="1810000" />
+      <workItem from="1694925213955" duration="1943000" />
+      <workItem from="1694927181784" duration="3199000" />
     </task>
     <servers />
   </component>
