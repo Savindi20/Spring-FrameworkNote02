@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/ConfigOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/ConfigOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/ConfigTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/ConfigTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/pojo/PojoOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/target/classes/lk/ijse/spring/pojo/PojoOne.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +68,7 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lk.ijse.spring.pojo" />
+      <recent name="lk.ijse.spring.config" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AppInitializer (6)">
@@ -229,7 +239,7 @@
       <workItem from="1694925213955" duration="1943000" />
       <workItem from="1694927181784" duration="3508000" />
       <workItem from="1694935650981" duration="1741000" />
-      <workItem from="1694938645285" duration="2020000" />
+      <workItem from="1694938645285" duration="2942000" />
     </task>
     <servers />
   </component>

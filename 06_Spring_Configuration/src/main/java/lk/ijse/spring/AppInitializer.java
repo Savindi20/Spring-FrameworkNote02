@@ -9,6 +9,8 @@ public class AppInitializer {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
 
+        //If we have more than config class
+        //we can register them to the context as follows
         ctx.register(AppConfig.class);
         ctx.register(ConfigOne.class);
         ctx.register(ConfigTwo.class);
