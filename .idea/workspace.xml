@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/06_Spring_Configuration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +229,7 @@
       <workItem from="1694925213955" duration="1943000" />
       <workItem from="1694927181784" duration="3508000" />
       <workItem from="1694935650981" duration="1741000" />
-      <workItem from="1694938645285" duration="1276000" />
+      <workItem from="1694938645285" duration="2020000" />
     </task>
     <servers />
   </component>
