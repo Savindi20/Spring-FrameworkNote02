@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/06_Spring_Configuration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_Spring_Configuration/src/main/java/lk/ijse/spring" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -56,6 +61,7 @@
       <recent name="lk.ijse.spring." />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring-FrameworkNote02\Spring In Action\06_Spring_Configuration\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\04_Spring_DI\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\03_Bean_Scopes\src\main\java\lk\ijse\spring" />
     </key>
@@ -63,10 +69,23 @@
       <recent name="lk.ijse.spring.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppInitializer (4)">
-    <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AppInitializer (6)">
+    <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="03_Bean_Scopes" />
+      <module name="01_Spring_Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.spring.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer (2)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="02_Bean_Life_Cycle" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ijse.spring.*" />
@@ -77,9 +96,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppInitializer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppInitializer (3)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="01_Spring_Core" />
+      <module name="03_Bean_Scopes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ijse.spring.*" />
@@ -97,15 +116,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppInitializer (4)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="02_Bean_Life_Cycle" />
+      <module name="04_Spring_DI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lk.ijse.spring.config.*" />
+          <option name="PATTERN" value="lk.ijse.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer (5)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="05_FullMode_LightMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer (6)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="06_Spring_Configuration" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,32 +188,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppInitializer(3)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="04_Spring_DI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lk.ijse.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AppInitializer (4)" />
-      <item itemvalue="Application.AppInitializer" />
+      <item itemvalue="Application.AppInitializer (6)" />
       <item itemvalue="Application.AppInitializer (1)" />
       <item itemvalue="Application.AppInitializer (2)" />
-      <item itemvalue="Application.AppInitializer(3)" />
+      <item itemvalue="Application.AppInitializer (3)" />
+      <item itemvalue="Application.AppInitializer (4)" />
+      <item itemvalue="Application.AppInitializer (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppInitializer(3)" />
-        <item itemvalue="Application.AppInitializer (1)" />
+        <item itemvalue="Application.AppInitializer (4)" />
+        <item itemvalue="Application.AppInitializer (3)" />
         <item itemvalue="Application.AppInitializer (2)" />
-        <item itemvalue="Application.AppInitializer" />
+        <item itemvalue="Application.AppInitializer (5)" />
+        <item itemvalue="Application.AppInitializer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +236,8 @@
       <workItem from="1694920936855" duration="3974000" />
       <workItem from="1694925213955" duration="1943000" />
       <workItem from="1694927181784" duration="3508000" />
-      <workItem from="1694935650981" duration="1395000" />
+      <workItem from="1694935650981" duration="1741000" />
+      <workItem from="1694938645285" duration="1276000" />
     </task>
     <servers />
   </component>

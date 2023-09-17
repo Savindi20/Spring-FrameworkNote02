@@ -10,6 +10,7 @@
         <module name="05_FullMode_LightMode" />
         <module name="01_Spring_Core" />
         <module name="04_Spring_DI" />
+        <module name="06_Spring_Configuration" />
         <module name="03_Bean_Scopes" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="03_Bean_Scopes" target="8" />
       <module name="04_Spring_DI" target="8" />
       <module name="05_FullMode_LightMode" target="8" />
+      <module name="06_Spring_Configuration" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
