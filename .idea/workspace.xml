@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +196,8 @@
       <workItem from="1694877687630" duration="17000" />
       <workItem from="1694920936855" duration="3974000" />
       <workItem from="1694925213955" duration="1943000" />
-      <workItem from="1694927181784" duration="3199000" />
+      <workItem from="1694927181784" duration="3508000" />
+      <workItem from="1694935650981" duration="1395000" />
     </task>
     <servers />
   </component>
