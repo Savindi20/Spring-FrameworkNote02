@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/DI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/05_FullMode_LightMode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_FullMode_LightMode/src/main/java/lk/ijse/spring/pojo/PojoOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring/di/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_Spring_DI/src/main/java/lk/ijse/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -83,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppInitializer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="04_Spring_DI" />
+      <module name="02_Bean_Life_Cycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lk.ijse.spring.*" />
+          <option name="PATTERN" value="lk.ijse.spring.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,10 +104,36 @@
     </configuration>
     <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
-      <module name="02_Bean_Life_Cycle" />
+      <module name="03_Bean_Scopes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lk.ijse.spring.*" />
+          <option name="PATTERN" value="lk.ijse.spring.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="01_Spring_Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.spring.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
+      <module name="04_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.spring.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +177,7 @@
       <workItem from="1694876276860" duration="151000" />
       <workItem from="1694876436698" duration="1233000" />
       <workItem from="1694877687630" duration="17000" />
-      <workItem from="1694920936855" duration="2728000" />
+      <workItem from="1694920936855" duration="3784000" />
     </task>
     <servers />
   </component>
