@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07_Runtime_Value_Injection/src/main/java/lk/ijse/spring/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Spring_Environment/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_Runtime_Value_Injection/target/classes/lk/ijse/spring/pojo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/07_Runtime_Value_Injection/target/classes/lk/ijse/spring/pojo/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07_Runtime_Value_Injection/src/main/java/lk/ijse/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -191,13 +190,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,7 +245,8 @@
       <workItem from="1694935650981" duration="1741000" />
       <workItem from="1694938645285" duration="4671000" />
       <workItem from="1695006462263" duration="7147000" />
-      <workItem from="1695290321663" duration="5783000" />
+      <workItem from="1695290321663" duration="6348000" />
+      <workItem from="1695362267806" duration="112000" />
     </task>
     <servers />
   </component>

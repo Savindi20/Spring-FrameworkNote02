@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="02_Bean_Life_Cycle" />
+        <module name="08_Spring_Environment" />
         <module name="04_Spring_DI" />
         <module name="03_Bean_Scopes" />
         <module name="05_FullMode_LightMode" />
@@ -23,6 +24,7 @@
       <module name="05_FullMode_LightMode" target="8" />
       <module name="06_Spring_Configuration" target="8" />
       <module name="07_Runtime_Value_Injection" target="8" />
+      <module name="08_Spring_Environment" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
