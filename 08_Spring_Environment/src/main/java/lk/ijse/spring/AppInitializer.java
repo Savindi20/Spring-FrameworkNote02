@@ -3,6 +3,9 @@ package lk.ijse.spring;
 import lk.ijse.spring.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Map;
+import java.util.Properties;
+
 public class AppInitializer {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
@@ -10,5 +13,20 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
+        //OS Environment variables
+        Map<String, String> getenv = System.getenv();
+        for (String key : getenv.keySet()) {
+            String value = getenv.get(key);
+            System.out.println(key+" : "+value);
+        }
+
+        System.out.println("==========================================");
+
+        //Java Environment variables
+        Properties properties = System.getProperties();
+        for (Object key : properties.keySet()) {
+            Object value = properties.get(key);
+            System.out.println(key+" : "+value);
+        }
     }
 }
