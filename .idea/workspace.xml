@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/pojo/TestBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Spring_Environment/08_Spring_Environment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/08_Spring_Environment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/pojo/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/lk/ijse/spring/pojo/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/src/main/java/private.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/config/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/pojo/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/08_Spring_Environment/target/classes/lk/ijse/spring/pojo/DBConnection.class" afterDir="false" />
     </list>
@@ -31,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="2VTJyQiWGCK3zL8I2hah7y38Ski" />
   <component name="ProjectLevelVcsManager">
@@ -69,6 +69,7 @@
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\03_Bean_Scopes\src\main\java\lk\ijse\spring" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java\lk\ijse\spring\config" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java" />
     </key>
@@ -210,6 +211,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppInitializer (6)" />
       <item itemvalue="Application.AppInitializer (7)" />
@@ -255,6 +267,7 @@
       <workItem from="1695006462263" duration="7147000" />
       <workItem from="1695290321663" duration="6348000" />
       <workItem from="1695362267806" duration="5999000" />
+      <workItem from="1695372551785" duration="2036000" />
     </task>
     <servers />
   </component>
