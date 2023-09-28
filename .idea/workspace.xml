@@ -20,6 +20,7 @@
       <change afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/src/main/java/lk/ijse/spring/pojo/SpringBeanOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -286,7 +287,7 @@
       <workItem from="1695372551785" duration="2394000" />
       <workItem from="1695610108050" duration="10083000" />
       <workItem from="1695657987261" duration="140000" />
-      <workItem from="1695881287235" duration="2434000" />
+      <workItem from="1695881287235" duration="3444000" />
     </task>
     <servers />
   </component>
