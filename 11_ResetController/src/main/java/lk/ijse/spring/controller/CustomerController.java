@@ -14,7 +14,16 @@ public class CustomerController {
     }
 
     @GetMapping
-    public String testOne(){
+    public String testOne(){ //we can return any compatible data type with rest controller
+        //no need viewResolvers
+        return "Hello Customer Mapping";
+    }
+
+    @GetMapping
+    public String testTwo(){ //this is duplicate(Ambiguous) mapping
+        //same controller there two methods for get method
+        //so we can't do that
+        //we have to learn mapping spec to resolve this problem
         return "Hello Customer Mapping";
     }
 }
