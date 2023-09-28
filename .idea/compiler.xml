@@ -15,6 +15,7 @@
         <module name="01_Spring_Core" />
         <module name="06_Spring_Configuration" />
         <module name="07_Runtime_Value_Injection" />
+        <module name="10_Controller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="07_Runtime_Value_Injection" target="8" />
       <module name="08_Spring_Environment" target="8" />
       <module name="09_Spring_Web_MVC" target="8" />
+      <module name="10_Controller" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
