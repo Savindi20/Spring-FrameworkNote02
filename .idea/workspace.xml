@@ -13,16 +13,19 @@
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/10_Controller_war.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/10_Controller_war_exploded.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/controller/ItemController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10_Controller/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Controller/src/main/webapp/views/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Controller/src/main/webapp/views/item.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Spring_Web_MVC/09_Spring_Web_MVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/09_Spring_Web_MVC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Spring_Web_MVC/target/09_Spring_Web_MVC-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/09_Spring_Web_MVC/target/09_Spring_Web_MVC-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10_Controller/10_Controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10_Controller/10_Controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +73,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_Controller/src/main/java/lk/ijse/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_Controller/src/main/webapp/views" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.152439" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
@@ -82,11 +85,11 @@
       <recent name="lk.ijse.spring." />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring-FrameworkNote02\Spring In Action\10_Controller\src\main\webapp\views" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\10_Controller\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\07_Runtime_Value_Injection\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\06_Spring_Configuration\src\main\java\lk\ijse\spring" />
-      <recent name="E:\Spring-FrameworkNote02\Spring In Action\04_Spring_DI\src\main\java\lk\ijse\spring" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\resources" />
@@ -95,6 +98,7 @@
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.spring.controller" />
       <recent name="lk.ijse.spring.pojo" />
       <recent name="lk.ijse.spring.config" />
     </key>
@@ -384,7 +388,7 @@
       <workItem from="1695891004003" duration="2949000" />
       <workItem from="1695901584918" duration="70000" />
       <workItem from="1695901663641" duration="547000" />
-      <workItem from="1695902223642" duration="4113000" />
+      <workItem from="1695902223642" duration="6251000" />
     </task>
     <servers />
   </component>
