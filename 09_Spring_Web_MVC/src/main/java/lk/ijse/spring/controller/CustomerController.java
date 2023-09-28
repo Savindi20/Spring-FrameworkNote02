@@ -10,6 +10,6 @@ public class CustomerController {
 
     @GetMapping
     public void callMe(){
-        System.out.println("Call me method invoked by the veb browser");
+        System.out.println("Call me method invoked by the web browser");
     }
 }
