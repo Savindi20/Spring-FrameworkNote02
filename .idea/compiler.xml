@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="02_Bean_Life_Cycle" />
+        <module name="11_ResetController" />
         <module name="08_Spring_Environment" />
         <module name="04_Spring_DI" />
         <module name="03_Bean_Scopes" />
@@ -29,6 +30,7 @@
       <module name="08_Spring_Environment" target="8" />
       <module name="09_Spring_Web_MVC" target="8" />
       <module name="10_Controller" target="8" />
+      <module name="11_ResetController" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

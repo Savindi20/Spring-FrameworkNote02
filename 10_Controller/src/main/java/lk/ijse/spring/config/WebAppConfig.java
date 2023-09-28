@@ -1,6 +1,7 @@
 package lk.ijse.spring.config;
 
 import lk.ijse.spring.controller.CustomerController;
+import lk.ijse.spring.controller.ItemController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackageClasses = {CustomerController.class})
+@ComponentScan(basePackageClasses = {CustomerController.class, ItemController.class})
 public class WebAppConfig {
 
     @Bean

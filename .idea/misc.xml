@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/09_Spring_Web_MVC" />
     <file type="web" url="file://$PROJECT_DIR$/10_Controller" />
+    <file type="web" url="file://$PROJECT_DIR$/11_ResetController" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/08_Spring_Environment/pom.xml" />
         <option value="$PROJECT_DIR$/09_Spring_Web_MVC/pom.xml" />
         <option value="$PROJECT_DIR$/10_Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/11_ResetController/pom.xml" />
       </list>
     </option>
   </component>
