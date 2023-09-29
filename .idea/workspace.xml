@@ -10,8 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Mapping_Spec_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Mapping_Spec_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/12_Mapping_Spec.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_ResetController/src/main/java/lk/ijse/spring/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/11_ResetController/src/main/java/lk/ijse/spring/controller/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11_ResetController/src/main/java/lk/ijse/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -71,11 +80,11 @@
       <recent name="lk.ijse.spring." />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring-FrameworkNote02\Spring In Action\12_Mapping_Spec\src\main\java\lk\ijse\spring\config" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\11_ResetController\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\10_Controller\src\main\webapp\views" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\10_Controller\src\main\java\lk\ijse\spring" />
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java\lk\ijse\spring" />
-      <recent name="E:\Spring-FrameworkNote02\Spring In Action\07_Runtime_Value_Injection\src\main\java\lk\ijse\spring" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\resources" />
@@ -222,15 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -377,7 +384,11 @@
       <workItem from="1695901584918" duration="70000" />
       <workItem from="1695901663641" duration="547000" />
       <workItem from="1695902223642" duration="6436000" />
-      <workItem from="1695923127836" duration="1970000" />
+      <workItem from="1695923127836" duration="2222000" />
+      <workItem from="1695925713762" duration="604000" />
+      <workItem from="1695961978754" duration="1337000" />
+      <workItem from="1695964433645" duration="104000" />
+      <workItem from="1695964545633" duration="398000" />
     </task>
     <servers />
   </component>
