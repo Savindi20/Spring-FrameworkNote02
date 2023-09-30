@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="11_ResetController:war" />
+      <artifact name="12_Mapping_Spec:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,17 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Mapping_Spec_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Mapping_Spec_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/12_Mapping_Spec.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_ResetController/target/11_ResetController-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/11_ResetController/target/11_ResetController-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_ResetController/target/11_ResetController-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/11_ResetController/target/11_ResetController-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_ResetController/target/classes/lk/ijse/spring/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/11_ResetController/target/classes/lk/ijse/spring/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/controller/OneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/controller/OneController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring-Framework/Spring In Action" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -231,24 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/11_ResetController_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/12_Mapping_Spec_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="11_ResetController:war">
+        <artifact name="12_Mapping_Spec:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/11_ResetController_war" />
+            <option name="CONTEXT_PATH" value="/12_Mapping_Spec_war" />
           </settings>
         </artifact>
       </deployment>
@@ -326,7 +309,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="11_ResetController:war" />
+          <artifact name="12_Mapping_Spec:war" />
         </option>
       </method>
     </configuration>
@@ -388,7 +371,9 @@
       <workItem from="1695925713762" duration="604000" />
       <workItem from="1695961978754" duration="1337000" />
       <workItem from="1695964433645" duration="104000" />
-      <workItem from="1695964545633" duration="398000" />
+      <workItem from="1695964545633" duration="827000" />
+      <workItem from="1695965396188" duration="4066000" />
+      <workItem from="1696041202467" duration="6034000" />
     </task>
     <servers />
   </component>
