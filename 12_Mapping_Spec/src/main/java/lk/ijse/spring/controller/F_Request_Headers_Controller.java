@@ -1,5 +1,6 @@
 package lk.ijse.spring.controller;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,14 +29,18 @@ public class F_Request_Headers_Controller {
 
     //to invoke this you have to send content-type=application/json from the fornt
     //end
-    @GetMapping(consumes = "application/json")
+
+//    @GetMapping(consumes = "application/json")
+    @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
     public String getMapping1() {
         return "Get Mapping Invoked 1";
     }
 
     //To invoke this you have to send content-type=text/html from the front
     //end
-    @GetMapping(consumes = "text/html")
+
+//    @GetMapping(consumes = "text/html")
+    @GetMapping(consumes = {MediaType.TEXT_HTML_VALUE})
     public String getMapping2() {
         return "Get Mapping Invoked 2";
     }
@@ -43,6 +48,7 @@ public class F_Request_Headers_Controller {
     //this handler method will produce only text/html type content
     //request sender can use Accept header to inform what type
     //of response body it is expecting from the server
+
     @GetMapping(produces = "text/html")
     public String getMapping3() {
         return "Get Mapping Invoked 3";
