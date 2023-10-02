@@ -49,6 +49,14 @@ public class F_Request_Headers_Controller {
     //request sender can use Accept header to inform what type
     //of response body it is expecting from the server
 
+    //consumes = Content-Type=application/json
+    //produces = Accept
+
+    //consumes = Define what is the Content-Type of the request body
+    //request eka ewana content type eka matha handler method eka narrow dow krn eka
+    //Accept => What we want from the response body
+    // This is default header and
+
     @GetMapping(produces = "text/html")
     public String getMapping3() {
         return "Get Mapping Invoked 3";

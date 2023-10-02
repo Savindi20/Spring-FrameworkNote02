@@ -59,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_Mapping_Spec/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../New folder/Spring-Framework/Spring In Action" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -373,7 +373,7 @@
       <workItem from="1696041202467" duration="6034000" />
       <workItem from="1696089529521" duration="787000" />
       <workItem from="1696091225410" duration="5000" />
-      <workItem from="1696133176793" duration="3030000" />
+      <workItem from="1696133176793" duration="7083000" />
     </task>
     <servers />
   </component>
