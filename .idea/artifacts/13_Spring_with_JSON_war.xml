@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="13_Spring_with_JSON:war">
+    <output-path>$PROJECT_DIR$/13_Spring_with_JSON/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>13_Spring_with_JSON</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="O13_Spring_with_JSON-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="13_Spring_with_JSON:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/11_ResetController/11_ResetController.iml" filepath="$PROJECT_DIR$/11_ResetController/11_ResetController.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_Mapping_Spec/12_Mapping_Spec.iml" filepath="$PROJECT_DIR$/12_Mapping_Spec/12_Mapping_Spec.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_Spring_with_JSON/13_Spring_with_JSON.iml" filepath="$PROJECT_DIR$/13_Spring_with_JSON/13_Spring_with_JSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Spring-Framework_Note/14_POS_Spring/14_POS_Spring.iml" filepath="$PROJECT_DIR$/../../Spring-Framework_Note/14_POS_Spring/14_POS_Spring.iml" />
     </modules>
   </component>
 </project>

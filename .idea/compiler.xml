@@ -16,6 +16,7 @@
         <module name="02_Bean_Life_Cycle" />
         <module name="11_ResetController" />
         <module name="04_Spring_DI" />
+        <module name="14_POS_Spring" />
         <module name="05_FullMode_LightMode" />
         <module name="06_Spring_Configuration" />
         <module name="07_Runtime_Value_Injection" />
@@ -36,6 +37,7 @@
       <module name="12_Mapping_Spec" target="8" />
       <module name="13_POSFrontEnd" target="8" />
       <module name="13_Spring_with_JSON" target="8" />
+      <module name="14_POS_Spring" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
