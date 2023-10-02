@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="02_Bean_Life_Cycle" />
-        <module name="11_ResetController" />
+        <module name="13_Spring_with_JSON" />
         <module name="08_Spring_Environment" />
-        <module name="04_Spring_DI" />
         <module name="03_Bean_Scopes" />
         <module name="09_Spring_Web_MVC" />
-        <module name="05_FullMode_LightMode" />
         <module name="12_Mapping_Spec" />
         <module name="01_Spring_Core" />
+        <module name="10_Controller" />
+        <module name="02_Bean_Life_Cycle" />
+        <module name="11_ResetController" />
+        <module name="04_Spring_DI" />
+        <module name="05_FullMode_LightMode" />
         <module name="06_Spring_Configuration" />
         <module name="07_Runtime_Value_Injection" />
-        <module name="10_Controller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,8 @@
       <module name="10_Controller" target="8" />
       <module name="11_ResetController" target="8" />
       <module name="12_Mapping_Spec" target="8" />
+      <module name="13_POSFrontEnd" target="8" />
+      <module name="13_Spring_with_JSON" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

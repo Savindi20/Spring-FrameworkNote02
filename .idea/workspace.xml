@@ -10,8 +10,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/advisor/AppWideExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/controller/A_Data_Fetch_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/controller/B_X_WWW_Url_Encoded_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/controller/C_JSON_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/controller/D_Response_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/controller/E_CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/dto/ItemsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/java/lk/ijse/spring/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/WebAppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/advisor/AppWideExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/config/WebAppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/config/WebRootConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/A_Data_Fetch_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/B_X_WWW_Url_Encoded_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/C_JSON_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/D_Response_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/controller/E_CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/dto/CustomerDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/dto/ItemsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/spring/util/ResponseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.15.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.15.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.15.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/O13_Spring_with_JSON-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/WebAppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/advisor/AppWideExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/config/WebAppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/config/WebRootConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/controller/A_Data_Fetch_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/controller/B_X_WWW_Url_Encoded_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/controller/C_JSON_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/controller/D_Response_Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/controller/E_CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/dto/CustomerDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/dto/ItemsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Spring_with_JSON/target/classes/lk/ijse/spring/util/ResponseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/controller/F_Request_Headers_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/12_Mapping_Spec/src/main/java/lk/ijse/spring/controller/F_Request_Headers_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_Core/01_Spring_Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_Core/01_Spring_Core.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +128,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../New folder/Spring-Framework/Spring In Action" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13_Spring_with_JSON" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -222,6 +291,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/12_Mapping_Spec_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -374,6 +454,7 @@
       <workItem from="1696089529521" duration="787000" />
       <workItem from="1696091225410" duration="5000" />
       <workItem from="1696133176793" duration="7083000" />
+      <workItem from="1696241449250" duration="1148000" />
     </task>
     <servers />
   </component>

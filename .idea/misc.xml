@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/10_Controller" />
     <file type="web" url="file://$PROJECT_DIR$/11_ResetController" />
     <file type="web" url="file://$PROJECT_DIR$/12_Mapping_Spec" />
+    <file type="web" url="file://$PROJECT_DIR$/13_Spring_with_JSON" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/10_Controller/pom.xml" />
         <option value="$PROJECT_DIR$/11_ResetController/pom.xml" />
         <option value="$PROJECT_DIR$/12_Mapping_Spec/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Spring_with_JSON/pom.xml" />
       </list>
     </option>
   </component>
