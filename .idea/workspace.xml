@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="14_POS_Spring:war" />
+      <artifact name="14_Spring_Data_JPA:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/dao/ItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f57aef55-6ea8-49ba-8856-f28f7c2a0a34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f57aef55-6ea8-49ba-8856-f28f7c2a0a34.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/14_Spring_Data_JPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/14_Spring_Data_JPA.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +88,14 @@
       <recent name="E:\Spring-FrameworkNote02\Spring In Action\08_Spring_Environment\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.spring.dao" />
       <recent name="lk.ijse.spring.config" />
       <recent name="lk.ijse.spring.util" />
       <recent name="lk.ijse.spring.controller" />
       <recent name="lk.ijse.spring.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Tomcat Server.Tomcat8.5.90">
     <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.spring.AppInitializer" />
       <module name="01_Spring_Core" />
@@ -226,31 +228,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/14_Spring_Data_JPA_war/" />
+    <configuration name="Tomcat8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/jpa/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="14_Spring_Data_JPA:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/14_Spring_Data_JPA_war" />
+            <option name="CONTEXT_PATH" value="/jpa" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7d98f3c9-aecc-40cd-995b-62e866e0bffe" />
+        <option name="BASE_DIRECTORY_NAME" value="f2ea47b8-9527-485b-afbb-b9fe76df073f" />
+        <option name="HTTP_PORT" value="8082" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -258,7 +259,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53031" />
+        <option name="DEBUG_PORT" value="55848" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -327,6 +328,84 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a6a13ee4-3b04-4344-82c6-475cc2bda7c2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55848" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppInitializer (6)" />
       <item itemvalue="Application.AppInitializer (7)" />
@@ -337,7 +416,7 @@
       <item itemvalue="Application.AppInitializer (2)" />
       <item itemvalue="Application.AppInitializer (3)" />
       <item itemvalue="Application.AppInitializer (5)" />
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat8.5.90" />
     </list>
     <recent_temporary>
       <list>
@@ -396,7 +475,8 @@
       <workItem from="1696486244397" duration="1949000" />
       <workItem from="1696516275204" duration="2599000" />
       <workItem from="1696569119592" duration="2814000" />
-      <workItem from="1696573582702" duration="6885000" />
+      <workItem from="1696573582702" duration="7727000" />
+      <workItem from="1696588901939" duration="3140000" />
     </task>
     <servers />
   </component>

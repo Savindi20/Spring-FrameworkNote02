@@ -35,7 +35,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.90" level="application_server_libraries" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.90" level="application_server_libraries" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.30" level="project" />
