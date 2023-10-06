@@ -9,6 +9,11 @@
     </properties>
     <root id="archive" name="14_Spring_Data_JPA-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="14_Spring_Data_JPA:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="14_Spring_Data_JPA/jpa/JPA" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
