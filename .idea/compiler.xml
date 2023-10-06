@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -15,8 +16,8 @@
         <module name="10_Controller" />
         <module name="02_Bean_Life_Cycle" />
         <module name="11_ResetController" />
+        <module name="14_Spring_Data_JPA" />
         <module name="04_Spring_DI" />
-        <module name="14_POS_Spring" />
         <module name="05_FullMode_LightMode" />
         <module name="06_Spring_Configuration" />
         <module name="07_Runtime_Value_Injection" />
@@ -38,6 +39,7 @@
       <module name="13_POSFrontEnd" target="8" />
       <module name="13_Spring_with_JSON" target="8" />
       <module name="14_POS_Spring" target="8" />
+      <module name="14_Spring_Data_JPA" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
