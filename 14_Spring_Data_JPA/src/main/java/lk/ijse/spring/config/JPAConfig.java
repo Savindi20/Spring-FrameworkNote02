@@ -15,6 +15,9 @@ public class JPAConfig {
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource ds, JpaVendorAdapter vad){
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
+        factory.setDataSource(ds);
+        factory.setJpaVendorAdapter(vad);
+        factory.setPackagesToScan("lk.ijse.spring.entity");
         return factory;
     }
 }
