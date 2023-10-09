@@ -6,8 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.math.BigDecimal;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -16,7 +14,4 @@ public class CustomerDTO {
     private String id;
     private String name;
     private String address;
-    private BigDecimal salary;
-
-
 }

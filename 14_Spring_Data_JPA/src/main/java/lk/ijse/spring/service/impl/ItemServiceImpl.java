@@ -1,8 +1,6 @@
 package lk.ijse.spring.service.impl;
 
-import lk.ijse.spring.dto.CustomerDTO;
 import lk.ijse.spring.dto.ItemDTO;
-import lk.ijse.spring.entity.Customer;
 import lk.ijse.spring.entity.Item;
 import lk.ijse.spring.repo.ItemRepo;
 import lk.ijse.spring.service.ItemService;
@@ -15,55 +13,44 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
-@Transactional // manage all the transactions here // AOP
+@Transactional
 public class ItemServiceImpl implements ItemService {
+    @Autowired
+    private ModelMapper mapper;
 
     @Autowired
-    ItemRepo itemRepo;
+    private ItemRepo repo;
 
-    @Autowired
-    ModelMapper mapper;
 
     @Override
     public void addItem(ItemDTO dto) {
-        if (itemRepo.existsById(dto.getCode())) {
-            throw new RuntimeException(dto.getCode()+" is already available, please insert a new ItemID");
-        }
+        if (repo.existsById(dto.getCode()))
+            throw new RuntimeException("Error, " + dto.getCode() + " is already added!");
+        repo.save(mapper.map(dto, Item.class));
+    }
 
-        Item map = mapper.map(dto, Item.class);
-        itemRepo.save(map);
+    @Override
+    public void updateItem(ItemDTO dto) {
+        if (!repo.existsById(dto.getCode())) throw new RuntimeException("Error, item is not exists!");
+        repo.save(mapper.map(dto, Item.class));
     }
 
     @Override
     public void deleteItem(String code) {
-        if (!itemRepo.existsById(code)) {
-            throw new RuntimeException(code+ " This Item is not available, please check the ItemID before delete.!");
-        }
-        itemRepo.deleteById(code);
+        if (!repo.existsById(code)) throw new RuntimeException("Error, item is not exists!");
+        repo.deleteById(code);
     }
 
     @Override
-    public List<ItemDTO> getAllItem() {
-        List<Item> all = itemRepo.findAll();
+    public List<ItemDTO> getAllItems() {
+        List<Item> all = repo.findAll();
         return mapper.map(all, new TypeToken<List<ItemDTO>>() {
         }.getType());
     }
 
     @Override
     public ItemDTO findItem(String code) {
-        if (!itemRepo.existsById(code)) {
-            throw new RuntimeException(code+ " This Item is not available, please check the ItemID.!");
-        }
-        Item item = itemRepo.findById(code).get();
-        return mapper.map(item,ItemDTO.class);
-    }
-
-    @Override
-    public void updateItem(ItemDTO i) {
-        if (!itemRepo.existsById(i.getCode())) {
-            throw new RuntimeException(i.getCode()+ " This Item is not available, please check the ItemID before update.!");
-        }
-        Item map = mapper.map(i, Item.class);
-        itemRepo.save(map);
+        if (!repo.existsById(code)) throw new RuntimeException("Error, item is not exists!");
+        return mapper.map(repo.findById(code), ItemDTO.class);
     }
 }

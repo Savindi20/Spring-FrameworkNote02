@@ -16,5 +16,4 @@ public class ItemDTO {
     private int qtyOnHand;
     private double unitPrice;
 
-
 }

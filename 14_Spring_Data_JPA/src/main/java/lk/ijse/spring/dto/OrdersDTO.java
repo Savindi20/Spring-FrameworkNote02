@@ -19,6 +19,4 @@ public class OrdersDTO {
     private LocalDate date;
     private String cusID;
     private List<OrderDetailsDTO> orderDetails;
-
-
 }

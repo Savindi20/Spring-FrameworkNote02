@@ -4,7 +4,6 @@ import lk.ijse.spring.dto.CustomerDTO;
 import lk.ijse.spring.entity.Customer;
 import lk.ijse.spring.repo.CustomerRepo;
 import lk.ijse.spring.service.CustomerService;
-import net.bytebuddy.description.method.MethodDescription;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,63 +11,44 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
 
 @Service
-@Transactional// AOP
+@Transactional
 public class CustomerServiceImpl implements CustomerService {
+    @Autowired
+    private ModelMapper mapper;
 
     @Autowired
-    CustomerRepo customerRepo;
-
-    @Autowired
-    ModelMapper mapper;
+    private CustomerRepo repo;
 
     @Override
     public void addCustomer(CustomerDTO dto) {
-        //service level validations
-        if (customerRepo.existsById(dto.getId())) {
-            throw new RuntimeException(dto.getId()+" is already available, please insert a new ID");
-        }
+        if (repo.existsById(dto.getId())) throw new RuntimeException("Error, " + dto.getId() + " is already added!");
+        repo.save(mapper.map(dto, Customer.class));
+    }
 
-        Customer map = mapper.map(dto, Customer.class);
-        //first param = source
-        //Type you want to convert
-        customerRepo.save(map);
+    @Override
+    public void updateCustomer(CustomerDTO dto) {
+        if (!repo.existsById(dto.getId())) throw new RuntimeException("Error, customer is not exists!");
+        repo.save(mapper.map(dto, Customer.class));
     }
 
     @Override
     public void deleteCustomer(String id) {
-        if (!customerRepo.existsById(id)) {
-            throw new RuntimeException(id+ " Customer is not available, please check the ID before delete.!");
-        }
-        customerRepo.deleteById(id);
+        if (!repo.existsById(id)) throw new RuntimeException("Error, customer is not exists!");
+        repo.deleteById(id);
     }
 
     @Override
-    public List<CustomerDTO> getAllCustomer() {
-        List<Customer> all = customerRepo.findAll();
+    public List<CustomerDTO> getAllCustomers() {
+        List<Customer> all = repo.findAll();
         return mapper.map(all, new TypeToken<List<CustomerDTO>>() {
         }.getType());
-        //new TypeToken<>(){}.getType()
-        //new TypeToken<List<CustomerDTO>>(){}.getType()
     }
 
     @Override
     public CustomerDTO findCustomer(String id) {
-        if (!customerRepo.existsById(id)) {
-            throw new RuntimeException(id+ " Customer is not available, please check the ID.!");
-        }
-        Customer customer = customerRepo.findById(id).get();
-        return mapper.map(customer,CustomerDTO.class);
-    }
-
-    @Override
-    public void updateCustomer(CustomerDTO c) {
-        if (!customerRepo.existsById(c.getId())) {
-            throw new RuntimeException(c.getId()+ " Customer is not available, please check the ID before update.!");
-        }
-        Customer map = mapper.map(c, Customer.class);
-        customerRepo.save(map);
+        if (!repo.existsById(id)) throw new RuntimeException("Error, customer is not exists!");
+        return mapper.map(repo.findById(id), CustomerDTO.class);
     }
 }

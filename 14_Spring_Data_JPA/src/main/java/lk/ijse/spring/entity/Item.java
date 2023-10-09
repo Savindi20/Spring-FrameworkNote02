@@ -18,5 +18,4 @@ public class Item {
     private String description;
     private int qtyOnHand;
     private BigDecimal unitPrice;
-
 }

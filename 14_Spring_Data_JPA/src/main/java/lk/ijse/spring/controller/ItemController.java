@@ -1,48 +1,44 @@
 package lk.ijse.spring.controller;
 
 import lk.ijse.spring.dto.ItemDTO;
-import lk.ijse.spring.entity.Item;
-import lk.ijse.spring.repo.ItemRepo;
 import lk.ijse.spring.service.ItemService;
 import lk.ijse.spring.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/item")
-@CrossOrigin // will support to cors requests
+@CrossOrigin
 public class ItemController {
-
     @Autowired
-    ItemService service;
+    private ItemService service;
 
     @PostMapping
-    public ResponseUtil addItem(ItemDTO dto){
+    public ResponseUtil addItem(ItemDTO dto) {
         service.addItem(dto);
-        return new ResponseUtil("Ok","Successfully Added",dto);
-    }
-
-    @DeleteMapping(params = {"code"})
-    public ResponseUtil deleteItem(String code){
-        service.deleteItem(code);
-        return new ResponseUtil("Ok","Successfully Deleted",code);
-    }
-
-    @GetMapping
-    public ResponseUtil getAllItem(){
-        return new ResponseUtil("Ok","Successfully Loaded",service.getAllItem());
-    }
-
-    @GetMapping(params = {"code"})
-    public ResponseUtil findItem(String code){
-        return new ResponseUtil("Ok","Successful", service.findItem(code));
+        return new ResponseUtil("Ok", "successfully added", dto);
     }
 
     @PutMapping
-    public ResponseUtil updateItem(@RequestBody ItemDTO i){
-        service.updateItem(i);
-        return new ResponseUtil("Ok","Successfully Updated",i);
+    public ResponseUtil updateItem(@RequestBody ItemDTO dto) {
+        service.updateItem(dto);
+        return new ResponseUtil("Ok", "successfully updated", dto);
+    }
+
+    @DeleteMapping
+    public ResponseUtil deleteItem(String code) {
+        service.deleteItem(code);
+        return new ResponseUtil("Ok", "successfully deleted", code);
+    }
+
+    @GetMapping
+    public ResponseUtil getAllItems() {
+        return new ResponseUtil("Ok", "successfully loaded", service.getAllItems());
+    }
+
+    @GetMapping(params = {"code"})
+    public ResponseUtil findItem(String code) {
+        return new ResponseUtil("Ok", "successfully searched", service.findItem(code));
     }
 }
+
