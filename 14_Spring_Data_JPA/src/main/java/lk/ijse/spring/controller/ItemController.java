@@ -1,6 +1,6 @@
 package lk.ijse.spring.controller;
 
-import lk.ijse.spring.dao.ItemDAO;
+import lk.ijse.spring.repo.ItemDAO;
 import lk.ijse.spring.entity.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
