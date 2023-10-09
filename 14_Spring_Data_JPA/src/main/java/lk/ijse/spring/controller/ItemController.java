@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/item")
+@CrossOrigin // will support to cors requests
 public class ItemController {
 
     @Autowired
