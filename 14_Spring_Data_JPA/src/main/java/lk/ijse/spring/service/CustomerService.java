@@ -1,4 +1,4 @@
 package lk.ijse.spring.service;
 
-public interface CustomerBO {
+public interface CustomerService {
 }

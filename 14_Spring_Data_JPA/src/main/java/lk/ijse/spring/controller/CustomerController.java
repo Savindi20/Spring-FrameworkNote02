@@ -1,8 +1,7 @@
 package lk.ijse.spring.controller;
 
-import lk.ijse.spring.repo.CustomerDAO;
-import lk.ijse.spring.dto.CustomerDTO;
 import lk.ijse.spring.entity.Customer;
+import lk.ijse.spring.repo.CustomerDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -32,7 +31,7 @@ public class CustomerController {
 
     @GetMapping(params = {"id"})
     public Customer findCustomer(String id){
-        return customerDAO.findById(id).get();
+         return customerDAO.findById(id).get();
     }
 
     @PutMapping

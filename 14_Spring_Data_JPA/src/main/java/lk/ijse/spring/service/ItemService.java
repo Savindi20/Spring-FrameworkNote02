@@ -1,4 +1,4 @@
 package lk.ijse.spring.service;
 
-public interface ItemBO {
+public interface ItemService {
 }

@@ -25,7 +25,7 @@ public class JPAConfig {
     //Spring data jpa need a vendor to run ORM
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource ds, JpaVendorAdapter vad){
-        //This is the spring data jpa main object which handles all the features
+       //This is the spring data jpa main object which handles all the features
         LocalContainerEntityManagerFactoryBean factory= new LocalContainerEntityManagerFactoryBean();
         factory.setDataSource(ds);// for access a data source
         factory.setJpaVendorAdapter(vad); // for accessing a vendor (hibernate)
@@ -37,7 +37,7 @@ public class JPAConfig {
     public DataSource dataSource(){
         DriverManagerDataSource ds= new DriverManagerDataSource();
         ds.setUsername("root");
-        ds.setPassword("sanu1234");
+        ds.setPassword("1234");
         ds.setDriverClassName("com.mysql.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3306/d2?createDatabaseIfNotExist=true");
         return ds;
@@ -52,6 +52,7 @@ public class JPAConfig {
         va.setShowSql(true); //if you wanted to see generated sql
         return va;
     }
+
 
     @Bean
     public PlatformTransactionManager transactionManager(EntityManagerFactory factory){
