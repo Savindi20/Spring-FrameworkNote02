@@ -16,7 +16,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="14_Spring_Data_JPA" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -73,5 +75,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.2" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.1.1" level="project" />
   </component>
 </module>

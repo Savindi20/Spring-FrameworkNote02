@@ -1,8 +1,6 @@
 package lk.ijse.spring.controller;
 
 import lk.ijse.spring.entity.Customer;
-import lk.ijse.spring.repo.CustomerDAO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,8 +9,7 @@ import java.util.List;
 @RequestMapping("/customer")
 public class CustomerController {
 
-    @Autowired
-    CustomerDAO customerDAO;
+
 
     @PostMapping
     public void addCustomer(Customer dto){

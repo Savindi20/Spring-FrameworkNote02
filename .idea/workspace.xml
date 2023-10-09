@@ -10,18 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_3_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/14_Spring_Data_JPA_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/14_Spring_Data_JPA_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/14_Spring_Data_JPA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/14_Spring_Data_JPA_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/14_Spring_Data_JPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/14_Spring_Data_JPA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/CustomerBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/ItemBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/CustomerBOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/ItemBOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/repo/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/repo/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/repo/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/repo/ItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/service/impl/ItemServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -485,7 +487,7 @@
       <workItem from="1696573582702" duration="7727000" />
       <workItem from="1696588901939" duration="10387000" />
       <workItem from="1696644700670" duration="10774000" />
-      <workItem from="1696814597766" duration="4679000" />
+      <workItem from="1696814597766" duration="6737000" />
     </task>
     <servers />
   </component>
