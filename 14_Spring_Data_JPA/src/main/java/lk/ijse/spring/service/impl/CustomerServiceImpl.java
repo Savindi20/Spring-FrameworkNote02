@@ -24,7 +24,6 @@ public class CustomerServiceImpl implements CustomerService {
     @Autowired
     ModelMapper mapper;
 
-
     @Override
     public void addCustomer(CustomerDTO dto) {
         //service level validations

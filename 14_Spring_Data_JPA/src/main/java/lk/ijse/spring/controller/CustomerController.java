@@ -37,7 +37,7 @@ public class CustomerController {
 
     @GetMapping(params = {"id"})
     public ResponseUtil findCustomer(String id){
-        return new ResponseUtil("Ok","Successfull", service.findCustomer(id));
+        return new ResponseUtil("Ok","Successful", service.findCustomer(id));
     }
 
     @PutMapping

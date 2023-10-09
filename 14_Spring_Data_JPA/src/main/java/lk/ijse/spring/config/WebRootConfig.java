@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Import;
 @Import({JPAConfig.class})
 @ComponentScan(basePackages = "lk.ijse.spring.service")
 public class WebRootConfig {
-    //this Config class is assigned for pojo's which is processing
-    //DAOs and Business of the application
+   //this Config class is assigned for pojo's which is processing
+   //DAOs and Business of the application
 
    public WebRootConfig(){
-       System.out.println("WebRootConfig : Instantiated");
+      System.out.println("WebRootConfig : Instantiated");
    }
 
    @Bean
