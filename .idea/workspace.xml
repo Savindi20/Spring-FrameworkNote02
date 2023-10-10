@@ -10,23 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8ea043-46ca-47e1-9b57-6f1af162b20b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/POSForntEnd/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POSForntEnd/assets/img/emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POSForntEnd/customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POSForntEnd/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POSForntEnd/purchase-order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/PurchaseOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/src/main/java/lk/ijse/spring/controller/PurchaseOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Spring_Data_JPA/target/14_Spring_Data_JPA-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/14_Spring_Data_JPA/target/14_Spring_Data_JPA-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/CustomerController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/DashboardController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/ItemController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/PurchaseOrderController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/validations/CustomerValidations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/controllers/validations/ItemValidations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/POSForntEnd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/models/Customer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSForntEnd/models/Item.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +62,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java-EENote/Enterprise_Edition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringPOS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -490,7 +474,7 @@
       <workItem from="1696644700670" duration="10774000" />
       <workItem from="1696814597766" duration="36295000" />
       <workItem from="1696909582158" duration="4030000" />
-      <workItem from="1696926628110" duration="2739000" />
+      <workItem from="1696926628110" duration="5226000" />
     </task>
     <servers />
   </component>
