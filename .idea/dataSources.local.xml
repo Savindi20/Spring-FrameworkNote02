@@ -13,6 +13,8 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
+            <name qname="carrental" />
+            <name qname="easy_carrental" />
             <name qname="posapi" />
             <name qname="posdb" />
           </node>
